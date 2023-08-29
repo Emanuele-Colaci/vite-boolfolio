@@ -1,6 +1,10 @@
 <script>
     import axios from 'axios';
+    import AppLoading from './AppLoading.vue';
     export default {
+        components:{
+            AppLoading
+        },
         data(){
             return{
                 baseUrl: 'http://127.0.0.1:8000',
@@ -39,6 +43,7 @@
                 </div>
             </div>
             <div class="row">
+                <AppLoading />
                 <div class="col-12 col-md-4" v-for="project in projects" :key="project.id">
                     <div class="card min-height-380px my-3">
                         <div class="card-image-container">
