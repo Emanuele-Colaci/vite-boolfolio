@@ -6,6 +6,7 @@
                 baseUrl: 'http://127.0.0.1:8000',
                 projects: [],
                 loading: true,
+                maxCaracters: 80
             }
         },
         created(){
@@ -20,6 +21,11 @@
                         this.loading = false;
                     }
                 });
+            },
+            turncateText(text){
+                if(text.length > this.maxCaracters){
+                    return text.substr(0, this.maxCaracters) + '...';
+                }
             }
         }
     }
@@ -33,14 +39,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4" v-for="project in projects" :key="project.id">
-                    <div class="card min-height-200px mx-3">
+                <div class="col-12 col-md-4" v-for="project in projects" :key="project.id">
+                    <div class="card min-height-380px my-3">
                         <div class="card-image-container">
-                            <img :src="`${this.baseUrl}/storage/${project.image}`" class="card-img-top my-img">
+                            <img :src="`${this.baseUrl}/storage/${project.image}`" class="card-img-top my-img" v-if="project.image">
+                            <img src="https://picsum.photos/200/300" class="card-img-top my-img" v-else>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">{{ project.titolo }}</h5>
-                            <p class="card-text">{{ project.descrizione }}</p>
+                            <p class="card-text">{{ turncateText(project.descrizione) }}</p>
                             <p class="card-text"><small class="text-muted">{{ project.data }}</small></p>
                         </div>
                     </div>
@@ -53,8 +60,8 @@
     @use '../styles/generals.scss' as *;
 
 
-.min-height-200px{
-    min-height: 200px;
+.min-height-380px{
+    min-height: 380px;
 }
 .card-image-container{
     position: relative;
