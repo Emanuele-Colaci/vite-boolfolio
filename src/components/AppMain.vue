@@ -10,7 +10,7 @@
                 baseUrl: 'http://127.0.0.1:8000',
                 projects: [],
                 loading: true,
-                maxCaracters: 70,
+                maxCaracters: 80,
                 currentPage: 1,
                 lastPage: null
             }
@@ -40,6 +40,8 @@
                 if(text.length > this.maxCaracters){
                     return text.substr(0, this.maxCaracters) + '...';
                 }
+                    return text
+                
             }
         }
     }
@@ -70,7 +72,7 @@
                             
                             <!-- Visualizza le tecnologie -->
                             <p class="card-text">
-                                <strong>Tecnologie:</strong>
+                                <strong>Tecnologie: </strong>
                                 <span v-for="(technology, index) in project.technologies" :key="index">
                                     {{ technology.name }}{{ index < project.technologies.length - 1 ? ', ' : '' }}
                                 </span>
