@@ -6,6 +6,7 @@ export default {
     },
     data(){
         return{
+            name: "ProjectCard",
             store,
             maxCaracters: 80
         }

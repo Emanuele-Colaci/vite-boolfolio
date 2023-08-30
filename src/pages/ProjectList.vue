@@ -1,8 +1,8 @@
 <script>
     import axios from 'axios';
     import { store } from '../store.js';
-    import AppLoading from './AppLoading.vue';
-    import ProjectCard from '../pages/ProjectCard.vue';
+    import AppLoading from '../components/AppLoading.vue';
+    import ProjectCard from './ProjectCard.vue';
 
     export default {
         components:{
@@ -11,6 +11,7 @@
         },
         data(){
             return{
+                name: "ProjectList",
                 store,
                 projects: [],
                 currentPage: 1,

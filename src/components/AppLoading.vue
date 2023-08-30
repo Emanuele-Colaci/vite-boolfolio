@@ -1,6 +1,10 @@
 <script>
 export default {
-    
+    data() {
+        return {
+            name: 'AppLoading'
+        }
+    },
 }
 </script>
 <template>

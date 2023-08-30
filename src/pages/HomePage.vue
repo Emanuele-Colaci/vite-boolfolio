@@ -1,13 +1,31 @@
 <script>
 export default {
-    
+    data() {
+        return {
+            name: "AppHome"
+        }
+    },
 }
 </script>
-<template lang="">
+<template>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center my-5">BOOLFOLIO - Home Page</h1>
+            </div>
+        </div>
+    </div>
     <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque tempora, possimus, praesentium a quisquam numquam fuga accusantium minus deleniti at velit repellat consectetur omnis quibusdam ullam quaerat voluptas quae.</p>
+                </div>
+            </div>
+        </div>
         
     </div>
 </template>
-<style lang="">
-    
+<style lang="scss">
+    @use '../styles/generals.scss' as *;
 </style>
