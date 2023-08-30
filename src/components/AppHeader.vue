@@ -9,8 +9,12 @@
                         routeName: 'home'
                     },
                     {
-                        nameUrl: 'Project',
+                        nameUrl: 'Proggetti',
                         routeName: 'project'
+                    },
+                    {
+                        nameUrl: 'Tipologia',
+                        routeName: 'type'
                     },
                    
                 ]
