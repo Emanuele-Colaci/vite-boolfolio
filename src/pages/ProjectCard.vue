@@ -45,6 +45,10 @@ export default {
                 </span>
                 <span v-if="project.technologies.length === 0">N/A</span>
             </p>
+
+            <div class="card-footer">
+                <router-link class="btn btn-outline-primary w-100" :to="{ name: 'determinato_proggetto', params: { title: project.titolo } }">Vedi il proggetto</router-link>
+            </div>
         </div>
     </div>
        
