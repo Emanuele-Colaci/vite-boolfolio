@@ -9,6 +9,10 @@
                         routeName: 'home'
                     },
                     {
+                        nameUrl: 'Email',
+                        routeName: 'email'
+                    },
+                    {
                         nameUrl: 'Proggetti',
                         routeName: 'project'
                     },
