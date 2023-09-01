@@ -1,6 +1,7 @@
 <script>
     import axios from 'axios';
     import { store } from '../store.js';
+    import { useRouter } from 'vue-router';
 export default {
     data(){
         return{
@@ -37,6 +38,8 @@ export default {
                     this.name = '';
                     this.email = '';
                     this.message = '';
+
+                    this.$router.push({ name: 'thank-you' })
                 }
                 this.loading = false
             });
@@ -71,7 +74,7 @@ export default {
                                 {{ error }}
                             </p>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 my-3">
                             <button class="btn btn-sm btn-success" :disabled="loading" type="submit">{{ loading ? 'Invio email in corso' : 'Invia' }}</button>
                         </div>
                     </form>

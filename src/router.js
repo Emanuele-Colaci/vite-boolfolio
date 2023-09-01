@@ -5,6 +5,7 @@ import SingleProject from './pages/SingleProject.vue';
 import TypeList from './pages/TypeList.vue';
 import NotFound from './pages/PageNotFound.vue';
 import ContactForm from './pages/ContactForm.vue';
+import ThankYouPage from './pages/ThankYou.vue';
 
 const router = createRouter({
 history: createWebHistory(),
@@ -18,6 +19,11 @@ routes: [
         path: '/email',
         name: 'email',
         component: ContactForm
+    },
+    {
+        path: '/thank-you',
+        name: 'thank-you',
+        component: ThankYouPage 
     },
     {
         path: '/project',
