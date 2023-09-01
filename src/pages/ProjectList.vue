@@ -36,6 +36,8 @@
                         this.currentPage = response.data.results.current_page;
                         this.lastPage = response.data.results.last_page;
                         this.store.loading = false;
+                    }else{
+                        this.$router.push({ name: 'not-found' })
                     }
                 });
             },
